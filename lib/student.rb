@@ -65,6 +65,6 @@ class Student
   end 
   
   def update
-    
+    sql = "UPDATE "
   end 
 end
