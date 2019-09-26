@@ -41,5 +41,7 @@ class Student
 
   def self.create(name:, grade:)
     student = Student.new(name, album)
+    student.save
+    student
   end
 end
