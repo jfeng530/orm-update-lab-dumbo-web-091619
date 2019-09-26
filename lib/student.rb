@@ -21,6 +21,7 @@ class Student
       grade INTEGER
       )
     SQL
+    db
   end 
 
 end
